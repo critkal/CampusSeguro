@@ -19,21 +19,14 @@ import android.view.MenuItem;
 
 import com.example.android.campusseguro.Fragments.Configuracao;
 import com.example.android.campusseguro.Fragments.Estatistica;
-import com.example.android.campusseguro.Fragments.Mapa;
-import com.example.android.campusseguro.Fragments.MapsFragment;
 import com.example.android.campusseguro.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
-import java.io.FileDescriptor;
-import java.io.PrintWriter;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback {
